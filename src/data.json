@@ -6,7 +6,11 @@
         },
         {
             "name": "Amazon",
-            "url_prefix": "https://smile.amazon.com/s?k="
+            "url_prefix": "https://amazon.com/s?k="
+        },
+        {
+            "name": "Amazon Brasil",
+            "url_prefix": "https://amazon.com.br/s?k="
         },
         {
             "name": "Arch Wiki",
@@ -41,6 +45,10 @@
             "url_prefix": "https://flathub.org/apps/search/"
         },
         {
+            "name": "G1",
+            "url_prefix": "https://g1.globo.com/busca/?q="
+        },
+        {
             "name": "GitHub",
             "url_prefix": "https://github.com/search?q="
         },
@@ -69,6 +77,10 @@
             "url_prefix": "https://lista.mercadolivre.com.br/"
         },
         {
+            "name": "Nexo Jornal",
+            "url_prefix": "https://nexojornal.com.br/util/busca/?q="
+        },
+        {
             "name": "npm",
             "url_prefix": "https://npmjs.com/search?q="
         },
@@ -87,6 +99,10 @@
         {
             "name": "SoundCloud",
             "url_prefix": "https://soundcloud.com/search?q="
+        },
+        {
+            "name": "Spotify",
+            "url_prefix": "https://open.spotify.com/search/"
         },
         {
             "name": "Stack Overflow",

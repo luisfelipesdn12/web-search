@@ -1,5 +1,8 @@
-import prependHttp from "prepend-http";
-import data from "./data.json";
+import prependHttps from "./prepend-https";
+import dataJSON from "./data.json";
+import { WebSearchData } from "./types";
+
+const data = dataJSON as WebSearchData;
 
 /**
  * Get search URL in a website from a search term.
@@ -25,13 +28,13 @@ export default function webSearch(
     websiteURL: string,
     searchQuery: string,
 ): string {
-    const targetHost = new URL(prependHttp(websiteURL)).hostname.replace(
+    const targetHost = new URL(prependHttps(websiteURL)).hostname.replace(
         "www.",
         "",
     );
 
     const matchedWebsite = data.websites.find(w => {
-        const currentHost = new URL(prependHttp(w.url_prefix)).hostname.replace(
+        const currentHost = new URL(prependHttps(w.url_prefix)).hostname.replace(
             "www.",
             "",
         );
@@ -40,6 +43,16 @@ export default function webSearch(
     });
 
     return matchedWebsite
-        ? `${matchedWebsite.url_prefix}${encodeURIComponent(searchQuery)}`
+        ? `${matchedWebsite.url_prefix}${encodeURIComponent(searchQuery)}${
+            matchedWebsite.url_suffix || ""
+        }`
         : undefined;
+}
+
+/**
+ * @returns The complete data of `web-search`,
+ * with the name and URLs of each website.
+ */
+export function webSearchData(): WebSearchData {
+    return data;
 }

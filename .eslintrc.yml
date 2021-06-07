@@ -10,7 +10,7 @@ parserOptions:
   ecmaVersion: 12
   sourceType: module
 ignorePatterns:
-  - "*.json"
+  - dist
 plugins:
   - "@typescript-eslint"
 rules:

@@ -15,7 +15,7 @@ data.websites.filter((website, index) => {
 });
 
 console.log("> Rendering the object to a JSON string");
-const JSONOutput = JSON.stringify(data, undefined, 4);
+const JSONOutput = JSON.stringify(data, undefined, 4) + "\n";
 
 console.log("> Saving result to 'src/data.json'");
 writeFile("src/data.json", JSONOutput, err => {
