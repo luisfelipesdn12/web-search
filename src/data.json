@@ -1,0 +1,116 @@
+{
+    "websites": [
+        {
+            "name": "AliExpress",
+            "url_prefix": "https://www.aliexpress.com/wholesale?SearchText="
+        },
+        {
+            "name": "Amazon",
+            "url_prefix": "https://smile.amazon.com/s?k="
+        },
+        {
+            "name": "Arch Wiki",
+            "url_prefix": "https://wiki.archlinux.org/index.php/"
+        },
+        {
+            "name": "Bandcamp",
+            "url_prefix": "https://bandcamp.com/search?q="
+        },
+        {
+            "name": "Bing",
+            "url_prefix": "https://www.bing.com/search?q="
+        },
+        {
+            "name": "Crates.io",
+            "url_prefix": "https://crates.io/search?q="
+        },
+        {
+            "name": "DEV Community",
+            "url_prefix": "https://dev.to/search?q="
+        },
+        {
+            "name": "DuckDuckGo",
+            "url_prefix": "https://www.duckduckgo.com/?q="
+        },
+        {
+            "name": "Ecosia",
+            "url_prefix": "https://www.ecosia.org/search?q="
+        },
+        {
+            "name": "Flathub",
+            "url_prefix": "https://flathub.org/apps/search/"
+        },
+        {
+            "name": "GitHub",
+            "url_prefix": "https://github.com/search?q="
+        },
+        {
+            "name": "GitHub Gist",
+            "url_prefix": "https://gist.github.com/search?q="
+        },
+        {
+            "name": "Google",
+            "url_prefix": "https://www.google.com/search?q="
+        },
+        {
+            "name": "Google Photos",
+            "url_prefix": "https://photos.google.com/search/"
+        },
+        {
+            "name": "Libraries.io",
+            "url_prefix": "https://libraries.io/search?q="
+        },
+        {
+            "name": "MDN Web Docs",
+            "url_prefix": "https://developer.mozilla.org/search?q="
+        },
+        {
+            "name": "Mercado Livre",
+            "url_prefix": "https://lista.mercadolivre.com.br/"
+        },
+        {
+            "name": "npm",
+            "url_prefix": "https://www.npmjs.com/search?q="
+        },
+        {
+            "name": "Pop!_Planet",
+            "url_prefix": "https://pop-planet.info/forums/search/1/?q="
+        },
+        {
+            "name": "Pop!_Planet Wiki",
+            "url_prefix": "https://pop-planet.info/wiki/?search="
+        },
+        {
+            "name": "reddit",
+            "url_prefix": "https://www.reddit.com/search/?q="
+        },
+        {
+            "name": "SoundCloud",
+            "url_prefix": "https://soundcloud.com/search?q="
+        },
+        {
+            "name": "Stack Overflow",
+            "url_prefix": "https://stackoverflow.com/search?q="
+        },
+        {
+            "name": "Twitch",
+            "url_prefix": "https://www.twitch.tv/search?term="
+        },
+        {
+            "name": "Twitter",
+            "url_prefix": "https://twitter.com/search?q="
+        },
+        {
+            "name": "Wikipedia",
+            "url_prefix": "https://wikipedia.org/w/index.php?search="
+        },
+        {
+            "name": "Yahoo!",
+            "url_prefix": "https://search.yahoo.com/search?p="
+        },
+        {
+            "name": "YouTube",
+            "url_prefix": "https://www.youtube.com/results?search_query="
+        }
+    ]
+}
