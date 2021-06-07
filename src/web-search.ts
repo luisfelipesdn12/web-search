@@ -2,13 +2,23 @@ import prependHttp from "prepend-http";
 import data from "./data.json";
 
 /**
- *
+ * Get search URL in a website from a search term.
  * @param websiteURL The website to make the search
  * @param searchQuery The search term
  * @returns The complete URL to the search on website
  *
- * @example ts```
- * webSearch("google.com", "how to make a carrot cake")
+ * @example ```ts
+ * // Allow compact/human-friendly URL
+ * webSearch("google.com", "how to make a carrot cake");
+ * => "https://google.com/search?q=how%20to%20make%20a%20carrot%20cake"
+ *
+ * // Allow complete URL, just get the host name
+ * webSearch("https://duckduckgo.com/?justGet=theHostName", "dogecoin");
+ * => "https://duckduckgo.com/?q=dogecoin"
+ *
+ * // Returns undefined with a unknown website
+ * webSearch("ea6194cb-47e1-4165-9090-0fa80539e82a.com", "what is uuid?");
+ * => undefined
  * ```
  */
 export default function webSearch(
@@ -30,6 +40,6 @@ export default function webSearch(
     });
 
     return matchedWebsite
-        ? `${matchedWebsite.url_prefix}${searchQuery}`
+        ? `${matchedWebsite.url_prefix}${encodeURIComponent(searchQuery)}`
         : undefined;
 }

@@ -2,7 +2,7 @@
     "websites": [
         {
             "name": "AliExpress",
-            "url_prefix": "https://www.aliexpress.com/wholesale?SearchText="
+            "url_prefix": "https://aliexpress.com/wholesale?SearchText="
         },
         {
             "name": "Amazon",
@@ -18,7 +18,7 @@
         },
         {
             "name": "Bing",
-            "url_prefix": "https://www.bing.com/search?q="
+            "url_prefix": "https://bing.com/search?q="
         },
         {
             "name": "Crates.io",
@@ -30,11 +30,11 @@
         },
         {
             "name": "DuckDuckGo",
-            "url_prefix": "https://www.duckduckgo.com/?q="
+            "url_prefix": "https://duckduckgo.com/?q="
         },
         {
             "name": "Ecosia",
-            "url_prefix": "https://www.ecosia.org/search?q="
+            "url_prefix": "https://ecosia.org/search?q="
         },
         {
             "name": "Flathub",
@@ -50,7 +50,7 @@
         },
         {
             "name": "Google",
-            "url_prefix": "https://www.google.com/search?q="
+            "url_prefix": "https://google.com/search?q="
         },
         {
             "name": "Google Photos",
@@ -70,7 +70,7 @@
         },
         {
             "name": "npm",
-            "url_prefix": "https://www.npmjs.com/search?q="
+            "url_prefix": "https://npmjs.com/search?q="
         },
         {
             "name": "Pop!_Planet",
@@ -82,7 +82,7 @@
         },
         {
             "name": "reddit",
-            "url_prefix": "https://www.reddit.com/search/?q="
+            "url_prefix": "https://reddit.com/search/?q="
         },
         {
             "name": "SoundCloud",
@@ -94,7 +94,7 @@
         },
         {
             "name": "Twitch",
-            "url_prefix": "https://www.twitch.tv/search?term="
+            "url_prefix": "https://twitch.tv/search?term="
         },
         {
             "name": "Twitter",
@@ -110,7 +110,7 @@
         },
         {
             "name": "YouTube",
-            "url_prefix": "https://www.youtube.com/results?search_query="
+            "url_prefix": "https://youtube.com/results?search_query="
         }
     ]
 }
