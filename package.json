@@ -1,11 +1,12 @@
 {
   "name": "web-search",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A package to provide search URLs for websites from a search term.",
   "repository": "https://github.com/luisfelipesdn12/web-search",
   "scripts": {
     "precommit": "yarn lint && ts-node src/pre-commit.ts",
     "build": "bili",
+    "prepublish": "yarn build",
     "lint:eslint": "eslint --fix src/**.ts",
     "lint:prettier": "prettier --write --ignore-unknown src/**.ts",
     "lint": "yarn lint:prettier && yarn lint:eslint",

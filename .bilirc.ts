@@ -10,7 +10,7 @@ const configuration: Configuration = {
             if (format === "commonjs") return "web-search.js";
             return defaultFileName;
         },
-    }
+    },
 };
 
 export default configuration;
