@@ -1,6 +1,6 @@
 {
   "name": "web-search",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A package to provide search URLs for websites from a search term.",
   "repository": "https://github.com/luisfelipesdn12/web-search",
   "scripts": {
