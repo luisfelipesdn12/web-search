@@ -1,11 +1,11 @@
 {
   "name": "web-search",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A package to provide search URLs for websites from a search term.",
   "repository": "https://github.com/luisfelipesdn12/web-search",
   "scripts": {
     "precommit": "yarn lint && ts-node src/pre-commit.ts",
-    "build": "bili src/web-search.ts -d dist/",
+    "build": "bili",
     "lint:eslint": "eslint --fix src/**.ts",
     "lint:prettier": "prettier --write --ignore-unknown src/**.ts",
     "lint": "yarn lint:prettier && yarn lint:eslint",
@@ -45,11 +45,7 @@
     "dist"
   ],
   "main": "./dist/web-search.js",
-  "cdn": "./dist/web-search.umd.min.js",
-  "unpkg": "./dist/web-search.umd.min.js",
   "module": "./dist/web-search.esm.js",
-  "jsdelivr": "./dist/web-search.umd.min.js",
-  "umd:main": "./dist/web-search.umd.js",
   "exports": {
     ".": [
       {
