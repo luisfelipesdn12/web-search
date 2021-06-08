@@ -40,6 +40,10 @@
     "ts-node": "^10.0.0",
     "typescript": "^4.3.2"
   },
+  "files": [
+    "src",
+    "dist"
+  ],
   "main": "./dist/web-search.js",
   "cdn": "./dist/web-search.umd.min.js",
   "unpkg": "./dist/web-search.umd.min.js",

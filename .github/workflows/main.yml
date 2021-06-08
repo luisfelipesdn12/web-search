@@ -15,16 +15,6 @@ jobs:
 
             - run: yarn
             - run: yarn test
-    build:
-        runs-on: ubuntu-latest
-
-        needs: test
-
-        steps:
-            - uses: actions/checkout@v2
-
-            - run: yarn
-            - run: yarn build
     publish:
         runs-on: ubuntu-latest
 
