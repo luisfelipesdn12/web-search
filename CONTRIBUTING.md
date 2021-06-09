@@ -45,9 +45,9 @@ Add the new websites on the JSON file:
 }
 ```
 
-> Read [Commiting](##Commiting) to know what to do then.
+> Read [Committing](#committing) to know what to do then.
 
-## Commiting
+## Committing
 
 ### Pre-commit
 
