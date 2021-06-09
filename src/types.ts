@@ -21,7 +21,7 @@ export interface WebSearchData {
          * Usually contains additional query variables
          * to provide metadata about the search.
          *
-         * @example &iax=images&ia=images
+         * @example "&iax=images&ia=images"
          */
         url_suffix?: string;
     }[];

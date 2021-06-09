@@ -26,7 +26,7 @@ webSearch("npmjs.com", "web-search");
 
 ---
 
-### Functions
+### API
 
 #### `webSearch`
 
@@ -50,6 +50,15 @@ webSearch("ea6194cb-47e1-4165-9090-0fa80539e82a.com", "what is uuid?");
 // => undefined
 ```
 
+##### Parameters
+
+| Parameter     | Type     | Description                     | Example        |
+| ------------- | -------- | ------------------------------- | -------------- |
+| `websiteURL`  | `string` | The website to make the search. | `"npmjs.com"`  |
+| `searchQuery` | `string` | The search term.                | `"web-search"` |
+
+---
+
 #### `webSearchData`
 
 If you just want to make cool stuff with the data behind the `webSearch`, `webSearchData` returns it with the name and URLs of each website.
@@ -68,3 +77,25 @@ webSearchData();
 //     ]
 // }
 ```
+
+##### Interfaces
+
+- **`WebSearchData`**
+
+The data from `data.json`, storing the websites.
+
+`websites` is an array with these properties:
+
+| Property     | Type     | Description                               | Example                        |
+| ------------ | -------- | ----------------------------------------- | ------------------------------ |
+| `name`       | `string` | Website name.                             | `"DuckDuckGo"`                 |
+| `url_prefix` | `string` | The search url before the search term.    | `"https://duckduckgo.com/?q="` |
+| `url_suffix` | `string` | The (optional) url after the search term. | `"&iax=images&ia=images"`      |
+
+> It is recommended to include additional query variables in `url_suffix`.
+
+## Contributing
+
+At the end of the day, `web-search` is greater with more and more websites. So don't hesitate to contribute!
+
+[Check here the instructions](CONTRIBUTING.md).
