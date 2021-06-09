@@ -41,6 +41,10 @@
             "url_prefix": "https://ecosia.org/search?q="
         },
         {
+            "name": "Figma Community",
+            "url_prefix": "https://figma.com/community/search?q="
+        },
+        {
             "name": "Flathub",
             "url_prefix": "https://flathub.org/apps/search/"
         },
@@ -85,6 +89,10 @@
             "url_prefix": "https://npmjs.com/search?q="
         },
         {
+            "name": "Pexels",
+            "url_prefix": "https://pexels.com/search/"
+        },
+        {
             "name": "Pop!_Planet",
             "url_prefix": "https://pop-planet.info/forums/search/1/?q="
         },
@@ -115,6 +123,10 @@
         {
             "name": "Twitter",
             "url_prefix": "https://twitter.com/search?q="
+        },
+        {
+            "name": "Unsplash",
+            "url_prefix": "https://unsplash.com/s/photos/"
         },
         {
             "name": "Wikipedia",

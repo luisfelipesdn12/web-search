@@ -34,10 +34,9 @@ export default function webSearch(
     );
 
     const matchedWebsite = data.websites.find(w => {
-        const currentHost = new URL(prependHttps(w.url_prefix)).hostname.replace(
-            "www.",
-            "",
-        );
+        const currentHost = new URL(
+            prependHttps(w.url_prefix),
+        ).hostname.replace("www.", "");
 
         return targetHost === currentHost;
     });
@@ -52,6 +51,19 @@ export default function webSearch(
 /**
  * @returns The complete data of `web-search`,
  * with the name and URLs of each website.
+ *
+ * @example ```ts
+ * webSearchData();
+ * // => {
+ * //     websites: [
+ * //         {
+ * //             "name": "Example Domain",
+ * //             "url_prefix": "https://example.com/search?q="
+ * //         },
+ * //         ...
+ * //     ]
+ * // }
+```
  */
 export function webSearchData(): WebSearchData {
     return data;

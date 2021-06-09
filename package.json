@@ -6,7 +6,7 @@
     "main": "./dist/web-search.js",
     "types": "./types/web-search.d.ts",
     "scripts": {
-        "precommit": "yarn lint && ts-node src/pre-commit.ts",
+        "precommit": "yarn lint && yarn test && ts-node src/pre-commit.ts",
         "build": "tsc",
         "prepublish": "yarn build",
         "lint:eslint": "eslint --fix src/**.ts",
