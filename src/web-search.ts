@@ -56,3 +56,7 @@ export default function webSearch(
 export function webSearchData(): WebSearchData {
     return data;
 }
+
+// For "require statement"
+exports = webSearch;
+module.exports = webSearch;
