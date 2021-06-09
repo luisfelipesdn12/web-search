@@ -57,6 +57,8 @@ export function webSearchData(): WebSearchData {
     return data;
 }
 
-// For "require statement"
+// For `require` statement
 exports = webSearch;
 module.exports = webSearch;
+exports.webSearchData = webSearchData;
+module.exports.webSearchData = webSearchData;

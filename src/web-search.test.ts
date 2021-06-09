@@ -1,4 +1,4 @@
-import webSearch from "./web-search";
+import webSearch, { webSearchData } from "./web-search";
 
 describe("webSearch", () => {
     it("should return the search URL with a compact URL", () => {
@@ -27,5 +27,13 @@ describe("webSearch", () => {
         );
 
         expect(url).toBeUndefined();
+    });
+});
+
+describe("webSearchData", () => {
+    it("should return the data", () => {
+        const data = webSearchData();
+
+        expect(data).toBeDefined();
     });
 });
