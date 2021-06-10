@@ -77,6 +77,10 @@
             "url_prefix": "https://developer.mozilla.org/search?q="
         },
         {
+            "name": "Medium",
+            "url_prefix": "https://medium.com/search?q="
+        },
+        {
             "name": "Mercado Livre",
             "url_prefix": "https://lista.mercadolivre.com.br/"
         },
@@ -115,6 +119,10 @@
         {
             "name": "Stack Overflow",
             "url_prefix": "https://stackoverflow.com/search?q="
+        },
+        {
+            "name": "Towards Data Science",
+            "url_prefix": "https://towardsdatascience.com/search?q="
         },
         {
             "name": "Twitch",
